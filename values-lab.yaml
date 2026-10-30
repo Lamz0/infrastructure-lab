@@ -1,0 +1,9 @@
+fullnameOverride: helm-web
+
+image:
+  repository: nginx
+  tag: stable-alpine
+
+service:
+  type: ClusterIP
+  port: 80
